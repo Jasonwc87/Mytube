@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+  
+body{
+    margin:0px;
+    text-align: center;
+    background-color:black;
+    background-image
+    
+}
+
+h1{
+    font-size: 18px;
+    font-weight: 300;
+    color:white; 
+}
+
+h3{
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size:14px;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+}
+
+.logo{
+    width:212px;
+    height: 100px;
+    position: absolute;
+    right: 75%;
+   
+
+}
+
+a{
+    padding:50px;
+    text-decoration: none;
+    color: white;
+    float:right;
+    font-size:18px;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top:10px;
+}
+
+a:hover{
+    color:red;
+    font-size: 20px;
+    transition: none;
+}
+
+.grid-container{
+    display: grid;
+    column-gap: 0px;
+    grid: 1fr/ 1fr 1fr 1fr 1fr;
+    width: 100%;
+    color:white;
+    position: absolute;
+    margin-top: 250px;
+
+}
+
+.nav-bar{
+    position:relative;
+}
+
+
+.grid-item{
+    padding:50px;
+}
+
+iframe{
+    width: 260px;
+    height: 190px;
+    box-shadow: 1px 1px 8px crimson;
+    margin-bottom: 20px;
+   
+}
+
+
+p{
+    color:gray;
+    font-size:13px;
+    margin-top:8px;
+    line-height: 14px;
+}
+
+#search{
+    width:430px;
+    height:20px;
+    border-radius: 5px;
+    position: relative;
+    float:left;
+    margin-left:60px;
+    border-style: hidden;
+}
+
+footer{
+    color:white;
+    position: relative;
+    margin-top: 99.9%;
+    padding-top: 100px;
+}
